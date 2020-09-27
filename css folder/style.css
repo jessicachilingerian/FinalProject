@@ -135,14 +135,17 @@ input[type=submit]:hover {
       
 
 .hero-image {
-  background-image: url("..img folder/Photos-29 (1).jpg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
+  background-color:tomato;
+  width: 100%;
+    background-image: url("/img-folder/HomepageImage.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
 
 .hero-text {
   text-align: center;
