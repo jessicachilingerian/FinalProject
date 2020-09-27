@@ -133,5 +133,33 @@ input[type=submit]:hover {
     padding: 10px;
 }
       
-     
-    
+
+.hero-image {
+  background-image: url("..img folder/Photos-29 (1).jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h3 {
+    font-family: 'Crimson Text', serif;
+}
+
+h1{
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    text-align: center;
+    color: rgb(243, 126, 165);
+}
