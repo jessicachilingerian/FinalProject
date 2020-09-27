@@ -166,3 +166,9 @@ h1{
     text-align: center;
     color: rgb(243, 126, 165);
 }
+
+
+.modifier{
+    font-size: 60px !important;
+    color: tomato !important;
+}
