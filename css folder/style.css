@@ -55,7 +55,7 @@ input[type=submit]:hover {
         list-style-type: none;
     }
     
-    li{
+    .nav1{
         display: inline-block;
     }
     
@@ -167,16 +167,32 @@ p3{
     font-size: 20px;
 }
 
-.thankyou{
-    height: 400px;
-    width: auto;
-}
-/*
+
+
+/* This is where I'm stuck */
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+/* IGNORE
 .column{
     background-color:red;
 }
 
 /*
+
+.thankyou{
+    height: auto;
+    width: 25%;
+}
   .column {
     float: left;
     width: 25%;
