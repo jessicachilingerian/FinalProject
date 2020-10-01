@@ -1,6 +1,114 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+.container{
+  width: 97%;
+}
 
-input[type=text], select, textarea {
+
+body 
+{font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+color: 
+
+}
+
+header{
+  background-color:#C891D8;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.hero-image {
+  width: 100%;
+    background-image: url("/Users/jessicachilingerian/Desktop/FinalProject/img-folder/HomepageImage.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.hero-text{
+    font-style: italic;
+    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+    color: white;
+}
+.resume{
+  width: 100%;
+  height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+    /*
+
+
+    .logo{
+  float: left;
+  padding: 10px, 0;
+  height: 150px;
+}
+    input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   margin-top: 6px;
@@ -51,10 +159,13 @@ input[type=submit]:hover {
 
    
     
-    ul{
-        list-style-type: none;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
     }
     
+
     .nav1{
         display: inline-block;
     }
@@ -194,6 +305,11 @@ p3{
 
 p3{
   font-size: 12px;
+}
+
+.image-size2{
+  width: 100%;
+  height: 400px;
 }
 
 
